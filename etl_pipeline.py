@@ -4,7 +4,7 @@ from pathlib import Path
 # =========================
 # CONFIGURAÇÕES
 # =========================
-DATA_DIR = Path
+DATA_DIR = Path ("data")
 INPUT_FILE = DATA_DIR / "users.csv"
 OUTPUT_FILE = DATA_DIR / "mensagens_geradas.csv"
 
@@ -54,3 +54,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
